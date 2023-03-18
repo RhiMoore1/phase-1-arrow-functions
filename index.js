@@ -1,9 +1,10 @@
-const divide = function() {
-    return 2000 / 100;
+// function expressionß
+const divide = function(num1, num2) {
+    return num1 / num2;
 }
 
-const square = (parameter1) => parameter1 * parameter1;
-square();
+// arrow function with one parameter
+const square = num1 => num1 * num1;
 
-const add = (parameter1, parameter2) => parameter1 + parameter2;
-add();
+// arrow function with two parametersß
+const add = (num1, num2) => num1 + num2;
